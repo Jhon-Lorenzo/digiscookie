@@ -16,3 +16,4 @@ cd "$env:USERPROFILE\Downloads"
 Remove-Item -Path "$env:USERPROFILE\Downloads\digi" -Force -Recurse
 Remove-MpPreference -ExclusionPath "$env:USERPROFILE\Downloads"
 Remove-Item -Path "$env:USERPROFILE\Downloads\powershellcode.ps1" -Force
+exit
